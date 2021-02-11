@@ -22,6 +22,7 @@ import lombok.ToString;
  * @author Subham Das
  * @version 1.0
  * @see {@link com.lonewolf.memeStream.controller.MemeController}
+ * @see {@link com.lonewolf.memeStream.repository.MemeRepositroy}
  */
 @ApiModel
 @ToString

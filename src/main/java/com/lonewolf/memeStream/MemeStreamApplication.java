@@ -5,9 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * This class is the starting point of Spring Boot Application
+ * 
  * @author Subham Das
  * @version 1.0
  * @see {@link com.lonewolf.memeStream.controller.MemeController}
+ * @see {@link com.lonewolf.memeStream.controller.ReviewController}
  */
 @SpringBootApplication
 public class MemeStreamApplication {

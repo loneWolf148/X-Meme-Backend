@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.ToString;
 
 /**
- * Custom Exception thrown by REST API to be handled by API Exception Handler 
+ * Custom Exception thrown by REST API to be handled by API Exception Handler
  * 
  * @author Subham Das
  * @version 1.0

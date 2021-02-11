@@ -39,7 +39,7 @@ public class SwaggerConfig {
 	public Docket configureMemeApiDocket() {
 		Docket apiDocket = new Docket(DocumentationType.SWAGGER_2).select()
 				.apis(RequestHandlerSelectors.basePackage(SwaggerConfigRepository.Base_Package))
-				.paths(PathSelectors.regex("/memes.*")).build().apiInfo(metaApiInfo());
+				.paths(PathSelectors.any()).build().apiInfo(metaApiInfo());
 
 		return apiDocket;
 	}

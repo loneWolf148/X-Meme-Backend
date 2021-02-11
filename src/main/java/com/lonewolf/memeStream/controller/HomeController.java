@@ -3,6 +3,8 @@ package com.lonewolf.memeStream.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import springfox.documentation.annotations.ApiIgnore;
+
 /**
  * This class acts as {@link org.springframework.stereotype.Controller} for
  * mapping route to API Home Page ("/")
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @version 1.0
  * @see {@link com.lonewolf.memeStream.controller.MemeController}
  */
+@ApiIgnore
 @Controller
 public class HomeController {
 

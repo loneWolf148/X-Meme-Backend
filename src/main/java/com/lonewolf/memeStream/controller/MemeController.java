@@ -33,7 +33,7 @@ import io.swagger.annotations.ApiResponses;
  * @version 1.0
  * @see {@link com.lonewolf.memeStream.controller.HomeController}
  */
-@Api
+@Api(description = "REST API For Memes", tags = { "MemeController" })
 @CrossOrigin
 @RestController
 public class MemeController {
